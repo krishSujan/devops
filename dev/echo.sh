@@ -4,8 +4,8 @@ pwd=`pwd`
 
 source $pwd/env.sh
 
-Image id is $image
-$insTyp is the instance type
-$subnet is the subnet
-$SGs is the security group
+echo "image id is $image"
+echo "$insTyp is the instance type"
+echo "$subnet is the subnet"
+echo "$SGs is the security group"
 
