@@ -1,7 +1,7 @@
 #!/bin/bash
 
-pwd=`pwd`
-source $pwd/env.sh
+#pwd=`pwd`
+#source $pwd/env.sh
 
 
 /usr/local/bin/aws ec2 run-instances \
