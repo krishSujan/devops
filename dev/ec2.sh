@@ -6,7 +6,7 @@ source $pwd/env.sh
 
 /usr/local/bin/aws ec2 run-instances \
     --image-id $image \
-    --instance-type $InstanceType \
+    --instance-type $insTyp \
     --subnet-id $subnet \
     --security-group-ids $SGs \
     --key-name $KeyPair \
