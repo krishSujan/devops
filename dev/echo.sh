@@ -2,7 +2,7 @@
 
 pwd=`pwd`
 
-source $pwd/env.sh
+#source $pwd/env.sh
 
 echo "image id is $image"
 echo "$insTyp is the instance type"
