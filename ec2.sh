@@ -7,5 +7,4 @@
     --security-group-ids $SGs \
     --key-name $KeyPair \
     --count 1 \
-    --region $region \
-    --dry-run
+    --region $region 
