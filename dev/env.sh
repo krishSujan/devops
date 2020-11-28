@@ -1,6 +1,5 @@
 #!/bin/bash
 
-/usr/local/bin/aws ec2 run-instances \
 image=ami-0ba7c4110ca9bfe0b
 insTyp=t2.micro
 subnet=subnet-31a3804a
